@@ -1,0 +1,9 @@
+public class Test3 {
+	public static void main(String[] args) {
+		Season spring = Season.SPRING;
+		spring.showInfo();
+		Season spring1 = Season.SPRING;
+		System.out.println(spring.equals(spring1));  
+		spring.test();
+	}//跟单例模式类似 都返回一个对象
+}
